@@ -1,0 +1,32 @@
+.box{
+    background-color: white;
+    padding: 20px;
+    padding-bottom: 40px;
+    margin-top: 15px;
+    border-radius: 15px;
+    margin: 0 auto;
+    margin-top: 150px;
+}
+.list{
+    width: 50%;
+    margin-top: 10px;
+}
+.list li{
+    text-align: center;
+    padding: 17px;
+}
+.btn-success{
+    width: 25%;
+}
+.error{
+    margin-top: 25px;
+    display: none;
+}
+
+
+@media screen and (max-width: 999px) {
+    .box, .list, .btn-success{
+        width: 100%;
+    }
+
+}
